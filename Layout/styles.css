@@ -1,0 +1,68 @@
+p{
+    font-size: larger;     
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: aqua;
+    height: 100px;
+    margin: 5px 30px;
+}
+nav{
+    background-color: orange;
+    height: 50px;
+    margin: 5px 30px;
+}
+aside{
+    width: 300px;
+    float: left;
+    background-color: green;
+    height: 790px;
+    margin: 5px 5px 5px 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 1525px;
+    height: 800px;
+    margin: 5px;
+    background-color:deeppink ;
+}
+.section1{
+    display: flex;
+    background-color: blue;
+    margin: 5px;
+}
+.articulo1{
+    background-color:aquamarine;
+    height: 300px;
+    width: 50%;
+    margin: 5px;
+}
+.articulo2{
+   
+    background-color:bisque;
+    height: 300px;
+    width: 50%;
+    margin: 5px;
+}
+
+.section2{
+    display: flex;
+    background-color: green;
+    margin: 5px;
+}
+.articulo3 {
+    background-color: blueviolet;
+    height: 450px;
+    width: 100%;
+    margin: 5px;
+}
+footer{
+    display: flex;
+    background-color: brown;
+    height: 200px;
+    margin: 5px 30px;
+}
