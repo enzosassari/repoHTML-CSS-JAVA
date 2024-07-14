@@ -1,0 +1,33 @@
+body{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul>li>a:hover{     /**Cambia de color al pasar por arriba**/
+    color: red;
+}
+
+.link:visited{      /**Cambia de color al ser visitado**/
+    color: brown;
+}
+
+.link:hover{        /**Cambia de color al pasar por arriba**/
+    color: green;
+}
+
+p.lorem{           /**Color naranja de fondo para la clase lorem**/ 
+    background-color: orange;
+}
+
+div{                /**creo un div**/
+    border: solid;
+    margin: 60px;
+}
+
+div h2{            /**dentro del div modifico el color del h2**/ 
+    color: red;
+}
+
+h1+h2{  /**color de fondo para h2 siguiente de h1**/ 
+    background-color: aquamarine;
+}

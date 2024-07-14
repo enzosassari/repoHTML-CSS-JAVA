@@ -15,6 +15,10 @@ nav{
     height: 50px;
     margin: 5px 30px;
 }
+
+div{  /**le meto flexbox al div**/ 
+    display: flex;
+}
 aside{
     width: 300px;
     float: left;

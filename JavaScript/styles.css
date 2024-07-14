@@ -1,0 +1,32 @@
+
+
+button{
+    height: 20px; 
+    width: 150px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between; /*espacio entre divs, hace que lo lleve a la otra punta del contenedor*/
+    height: 100px; 
+    width: 800px;
+    border: 3px solid green;
+}
+
+.caja1{
+    display: flex;
+    height: 100px;
+    width: 250px;
+    border: 1px solid black;
+    visibility: visible; /* Propiedad inicial visible */
+    background-color: darksalmon;
+}
+
+.caja2{
+    display: flex;
+    height: 100px;
+    width: 250px;
+    border: 1px solid black;
+    visibility: hidden; /* Propiedad inicial oculto */
+    background-color: darksalmon;
+}
